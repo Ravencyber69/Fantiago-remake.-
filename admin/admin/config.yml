@@ -6,8 +6,7 @@ backend:
 media_folder: "uploads"
 public_folder: "/uploads"
 
-site_url: "https://fantiago.netlify.app"
-
+site_url: https://gregarious-bublanina-1d3f52.netlify.app/
 logo_url: "/uploads/logo.png"
 
 collections:
