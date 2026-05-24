@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Ravencyber69/Fantiago-remake.-
+  name: git-gateway
   branch: main
 
 media_folder: "uploads"
