@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Ravencyber69/Fantiago-remake.-
   branch: main
 
 media_folder: "uploads"
@@ -11,20 +12,8 @@ collections:
     folder: "content/posts"
     create: true
     slug: "{{slug}}"
-
     fields:
-      - label: "Title"
-        name: "title"
-        widget: "string"
-
-      - label: "Publish Date"
-        name: "date"
-        widget: "datetime"
-
-      - label: "Featured Image"
-        name: "image"
-        widget: "image"
-
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
